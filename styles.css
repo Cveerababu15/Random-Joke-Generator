@@ -1,0 +1,52 @@
+body{
+background-color: orange;
+height: 100vh;
+font-family: "scan",serif;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+overflow: hidden;
+
+
+}
+.container{
+    width: 350px;
+    background-color: black;
+    color: white;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    
+}
+span img{
+    width: 75px;
+    margin-left: 130px;
+    font-size: 60px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.joke{
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+
+
+}
+.btn:hover{
+background: orange;
+color: white;
+}
